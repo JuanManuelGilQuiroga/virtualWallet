@@ -200,6 +200,61 @@ progress[value]::-moz-progress-bar {
     color: var(--color-primario);
 }
 
+
+.body_transactions{
+    outline: 1px solid black;
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.body_transactions > h3{
+    color: var(--color-primario);
+    margin-left: 5%;
+    font-size: x-large;
+    align-self: flex-start;
+}
+.transactions_one{
+    outline: 1px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.transactions_one > img,
+.transactions_two > img{
+    width: 15%;
+}
+.transactions_one_food,
+.transactions_two_shopping{
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+.food_div_one,
+.food_div_two,
+.shopping_div_one,
+.shopping_div_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.transactions_two{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.body_transactions p{
+    color: var(--color-primario);
+}
+.body_transactions small{
+    color: var(--color-cuarto);
+}
+
+
 footer{
     width: 100%;
     background: var(--color-primario);
