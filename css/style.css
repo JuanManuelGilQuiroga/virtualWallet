@@ -30,7 +30,7 @@ body{
     position: sticky;
     z-index: 2;
     top: 0;
-    background: var(--color-primario);
+    
 }
 .header__logo{
     /* background: red; */

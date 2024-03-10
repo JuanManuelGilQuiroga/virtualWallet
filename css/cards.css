@@ -441,65 +441,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*/AQUI ESTA EL ERROR PORQUE ES EN FOOTER/*/
-.footer {
-    width: 100%;
-    background: var(--color-primario);
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-}
-
-.footer ul {
-    display: flex;
-    justify-content: space-around;
-    z-index: 10;
-}
-
-.footer ul li {
-    list-style: none;
-    margin: .5em 0;
-    z-index: 10;
-}
-
-.footer ul li a img {
-    width: 2em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     width: 100%;
     background: var(--color-primario);
