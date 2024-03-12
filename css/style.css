@@ -6,7 +6,7 @@
     font-family: "Poppins_Regular";
 }
 body{
-    background: var(--color-primario);
+    background: linear-gradient(45deg, var(--color-primario), var(--color-secundario));
 }
 .banner{
     position: absolute;
@@ -233,10 +233,19 @@ progress[value]::-moz-progress-bar {
     align-items: center;
     gap: 10px;
 }
-
-.transactions_cards div i{
-    font-size: 2em;
+.crypto{
+    height: 30px;
+    width: 30px;
 }
+.crypto0{
+    height: 25px;
+    width: 25px;
+}
+/*.transactions_cards div img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}*/
 div.transactions_description,
 div.transactions_value{
     display: flex;
