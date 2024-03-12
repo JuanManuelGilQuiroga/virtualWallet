@@ -345,7 +345,7 @@
     border-radius: 100%;
 }
 .public_logo img{
-    width: 100%;
+    width: 80%;
     /* height: 160px; */
     padding: 10px;
     object-fit: contain;
@@ -357,7 +357,7 @@
 }
 .public_description p{
     font-family: "Poppins_Bold";
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: var(--color-primario);
     margin-top: 20px;
 }
@@ -406,9 +406,9 @@
     overflow-x: scroll;
 }
 .cards_item{
+    border-radius: 20px;
     flex: 1;
     min-width: 200px;
-    background: url(../storage/img/card.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -418,15 +418,40 @@
     align-items: center;
     position: relative;
 }
+.cards_item:nth-child(1){
+    background: url(../storage/img1/nft1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cards_item:nth-child(2){
+    background: url(../storage/img1/nft2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cards_item:nth-child(3){
+    background: url(../storage/img1/nft3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cards_item:nth-child(4){
+    background: url(../storage/img1/nft4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .cards_item h2{
     color: var(--color-ternario);
     font-family: "Poppins_Bold";
+    text-shadow: 0px 0px 5px var(--color-primario);
 }
 .cards_item small{
     position: absolute;
     top: 30px;
     right: 4vw;
-    color: var(--color-ternario);
+    color: black;
     font-family: "Poppins_Semibold";
 }
 
