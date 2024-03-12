@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    font-family: "Poppins_Regular";
 }
 body{
     background: var(--color-primario);
@@ -47,13 +47,13 @@ body{
     /* background: green; */
 }
 .logo__icono img{
-    width: 3em;
+    width: 2.5em;
     color: var(--color-ternario);
 }
 .logo__titulo{
     /* background: orange; */
     color: var(--color-ternario);
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Poppins_Bold";
     text-transform: uppercase;
 }
 .header__menu{
@@ -81,10 +81,10 @@ body{
     text-transform: capitalize;
 }
 .titulo__card h2{
-    font-family: "SF-Pro-Text-Heavy";
+    font-family: "Poppins_Semibold";
 }
 .titulo__card P{
-    font-family: "SF-Pro-Text-Light";
+    font-family: "Poppins_Light";
     text-transform: capitalize;
 }
 
@@ -107,12 +107,12 @@ body{
 .balance__two small{
     font-size: 1em;
     text-transform: uppercase;
-    font-family: "SF-Pro-Text-Medium";
+    font-family: "Poppins_Medium";
 }
 .balance__one label,
 .balance__two label{
     font-size: 1.3em;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Poppins_Bold";
 }
 .balance__one progress[value] {
     --color: var(--color-secundario);
@@ -174,7 +174,7 @@ progress[value]::-moz-progress-bar {
 .activities_transactions h3{
     /*background: darkgoldenrod;*/
     text-transform: capitalize;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Poppins_Bold";
     font-size: 1.3em;
     margin-bottom: 20px;
 }
@@ -195,7 +195,7 @@ progress[value]::-moz-progress-bar {
     background: var(--color-ternario);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
     color: var(--color-primario);
-    font-family: "SF-Pro-Text-Semibold";
+    font-family: "Poppins_Semibold";
     text-transform: capitalize;
     flex-direction: column;
     justify-content: center;
@@ -252,11 +252,11 @@ div.transactions_value{
 
 div.transactions_description p,
 div.transactions_value p{
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Poppins_Bold";
 }
 div.transactions_description small,
 div.transactions_value small{
-    font-family: "SF-Pro-Text-Light";
+    font-family: "Poppins-Light";
     color: var(--color-cuarto);
 }
 i.bx.bxs-up-arrow{

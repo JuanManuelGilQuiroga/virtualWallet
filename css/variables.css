@@ -1,56 +1,80 @@
 :root{
-    --color-primario: #33404f;
-    --color-secundario: #00dda3;
-    --color-secundario-transparent: #E1FFEF;
+    --color-primario: #416D19; 
+    --color-secundario: #8bc53f;
+    --color-secundario-transparent: #e1f0da;
     --color-ternario: #ffffff;
-    --color-cuarto: #b5c5c3;
+    --color-cuarto: #f9ea8c;
     
 }
 @font-face {
-    font-family: "SF-Pro-Text-Bold";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf);
+    font-family: "Poppins_Black";
+    src: url(../storage/font/Poppins-Black.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-BoldItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-BoldItalic.otf);
+    font-family: "Poppins_Black_Italic";
+    src: url(../storage/font/Poppins-BlackItalic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-Heavy";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf);
+    font-family: "Poppins_Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-HeavyItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-HeavyItalic.otf);
+    font-family: "Poppins_Bold_Italic";
+    src: url(../storage/font/Poppins-BoldItalic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-Light";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf);
+    font-family: "Poppins_Extrabold";
+    src: url(../storage/font/Poppins-ExtraBold.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-LightItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-LightItalic.otf);
+    font-family: "Poppins_Extrabold_Italic";
+    src: url(../storage/font/Poppins-ExtraBoldItalic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-Medium";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Medium.otf);
+    font-family: "Poppins_Extralight";
+    src: url(../storage/font/Poppins-ExtraLight.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-MediumItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-MediumItalic.otf);
+    font-family: "Poppins_Extralight_Italic";
+    src: url(../storage/font/Poppins-ExtraLightItalic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-Regular";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
+    font-family: "Poppins_Italic";
+    src: url(../storage/font/Poppins-Italic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-RegularItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-RegularItalic.otf);
+    font-family: "Poppins_Light";
+    src: url(../storage/font/Poppins-Light.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-Semibold";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf);
+    font-family: "Poppins_Light_Italic";
+    src: url(../storage/font/Poppins-LightItalic.ttf);
 }
 @font-face {
-    font-family: "SF-Pro-Text-SemiboldItalic";
-    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-SemiboldItalic.otf);
+    font-family: "Poppins_Medium";
+    src: url(../storage/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins_Medium_Italic";
+    src: url(../storage/font/Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "Poppins_Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins_Semibold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins_Semibold_Italic";
+    src: url(../storage/font/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "Poppins_Thin";
+    src: url(../storage/font/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: "Poppins_Thin_Italic";
+    src: url(../storage/font/Poppins-ThinItalic.ttf);
 }
