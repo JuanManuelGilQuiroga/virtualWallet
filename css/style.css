@@ -40,15 +40,10 @@ body{
 
 }
 .icono_img{
-    z-index: 2;
-    color: var(--color-ternario);
+    width: 2.5em;
 }
 .logo__icono{
     /* background: green; */
-}
-.logo__icono img{
-    width: 2.5em;
-    color: var(--color-ternario);
 }
 .logo__titulo{
     /* background: orange; */
@@ -63,6 +58,8 @@ body{
     font-size: 3em;
     color: var(--color-ternario);
 }
+
+
 .main__titulo{
     /*/background: red;/*/
 }
@@ -192,9 +189,9 @@ progress[value]::-moz-progress-bar {
     min-width: 30%;
     min-height: 150px;
     border-radius: 20px;
-    background: var(--color-ternario);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
-    color: var(--color-primario);
+    background: linear-gradient(var(--color-primario), var(--color-secundario));
+    box-shadow: 0px 0px 20px var(--color-secundario-transparent);
+    color: var(--color-ternario);
     font-family: "Poppins_Semibold";
     text-transform: capitalize;
     flex-direction: column;
@@ -202,13 +199,11 @@ progress[value]::-moz-progress-bar {
     align-items: center;
     gap: 5px;
 }
-.service_cards div i{
-    font-size: 2.3em;
-}
-.service_cards_item_1,
-.service_cards_item_2,
-.service_cards_item_3{
-    /*background: darkmagenta;*/
+.service_cards_item_1 > i,
+.service_cards_item_2 > i, 
+.service_cards_item_3 > i{
+    color: var(--color-ternario);
+    font-size: 4.5em;
 }
 
 
@@ -266,14 +261,9 @@ div.transactions_value p{
 div.transactions_description small,
 div.transactions_value small{
     font-family: "Poppins-Light";
-    color: var(--color-cuarto);
-}
-i.bx.bxs-up-arrow{
     color: var(--color-secundario);
 }
-i.bxs-down-arrow{
-    color: var(--color-primario);
-}
+
 
 
 footer{
@@ -289,8 +279,9 @@ footer ul {
 }
 footer ul li {
     list-style: none;
-    margin: .5em 0;
 }
-footer ul li a img{
-    width: 2em;
+footer ul li a i{
+    text-align: center;
+    width: 4em;
+    color: var(--color-ternario);
 }
