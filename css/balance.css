@@ -158,10 +158,13 @@ body{
 }
 .card_image{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card_image img{
-    width: 100%;
-    object-fit: contain;
+.card_image i{
+    font-size: 7em;
+    color: var(--color-primario);
 }
 .card_description{
     display: flex;
